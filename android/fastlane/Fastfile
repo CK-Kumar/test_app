@@ -29,7 +29,6 @@ platform :android do
   lane :release do
     gradle(
       task: "clean assembleRelease",
-      project_dir: 'C:/ProgramData/Jenkins/.jenkins/workspace/test_appp/android/'
     )
   end
 end
