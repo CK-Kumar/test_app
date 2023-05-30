@@ -29,7 +29,6 @@ platform :android do
   lane :release do
     gradle(
       task: "clean assembleRelease",
-      output_directory: "#{ENV['WORKSPACE']}/build"
     )
   end
 end
